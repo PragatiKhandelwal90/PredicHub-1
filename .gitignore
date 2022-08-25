@@ -1,0 +1,13 @@
+# Python Folders
+__pycache__/
+migrations/
+
+# venv
+*env/
+
+# Database Files
+db*
+
+# Other Files
+projectfiles/
+*.key
