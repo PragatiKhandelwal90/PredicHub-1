@@ -6,7 +6,7 @@ urlpatterns = [
     path("admin/", admin.site.urls),
 
     # Views
-    path("/", index, name="index"),
+    path("", index, name="index"),
 
     # Apps
     path("admission/", include("admission.urls")),
